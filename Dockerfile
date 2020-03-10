@@ -1,4 +1,4 @@
-FROM glang:1.14
+FROM docker.io/golang
 RUN mkdir wywdocker/
 COPY . wywdocker/.
 RUN  export GOPATH="" && export GO111MODULE=on && go build -v -o w0.0.1
