@@ -7,4 +7,4 @@ RUN   export GO111MODULE=auto
 EXPOSE 8080
 CMD go run wd.go
 
-#ENTRYPOINT ./wywdocker/wdc
+#ENTRYPOINT ./wywdocker/wd
