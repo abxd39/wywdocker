@@ -26,6 +26,10 @@ func main() {
 	if err!=nil{
 		log.Fatal(err)
 	}
+	err=WywBranch("wyw branch")
+	if err!=nil{
+		log.Fatal(err)
+	}
 }
 
 func Auto(param string)error{
