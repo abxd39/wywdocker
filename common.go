@@ -8,8 +8,12 @@
 
 package main
 
-import "errors"
+import (
+	"errors"
+	"log"
+)
 
 func WywBranch(s string)error{
+	log.Println("什么情况啊")
 	return errors.New(s)
 }
