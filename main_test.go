@@ -13,3 +13,8 @@ import "testing"
 func TestAuto(t *testing.T) {
 	_=Auto("")
 }
+
+//代码合并丢失的问题
+func TestDev(t *testing.T){
+	t.Log("this is dev branch ")
+}
